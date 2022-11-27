@@ -20,3 +20,12 @@
 # **ЭТАПЫ ВЫПОЛЕНИЯ РАБОТЫ** #
 ## ***1. Создан репозиторий на GitHub*** ##
 **[ССЫЛКА НА РЕПОЗИТОРИЙ](https://github.com/NaeliaRu/FinalTestWork_Vaida)**
+
+---
+## ***2. Нарисована блок-схема алгоритма*** ##
+![блок-схема алгоритма](Diagram.jpg)
+
+**[ССЫЛКА НА БЛОК-СХЕМУ НА GITHUB](https://github.com/NaeliaRu/FinalTestWork_Vaida/blob/main/Diagram.jpg)**
+
+---
+
