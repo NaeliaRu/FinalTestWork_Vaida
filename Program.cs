@@ -21,6 +21,7 @@ string[] CreateArray()
         Console.Write($"Input array element {i + 1}: ");
         array[i] = Console.ReadLine();
     }
+    Console.WriteLine();
     Console.Write("Your array: ");
     return array;
 }
@@ -33,10 +34,20 @@ void ShowArray(string[] array)
     Console.WriteLine();
 }
 
+string[] UserNewArray(string[] array)
+{           
+    string[] newarray = new string[array.Length];
+
+    for(int i = 0; i < array.Length; i++)
+        if (array[i].Length <= 3)
+        newarray[i] = array[i];
+    
+    return newarray;
+}
+
 string[] userArray = CreateArray();
 ShowArray(userArray);
-
-
-
-
-
+string[] newUserArray = UserNewArray(userArray);
+Console.WriteLine();
+Console.Write("Your new array where strings length is equal or less than three: ");
+ShowArray(newUserArray);
